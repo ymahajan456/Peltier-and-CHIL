@@ -1,0 +1,17 @@
+Strat
+
+1. Start IV from 0 in reverse bias
+2. gradually increse reverse bias till ends
+3. then reverse relay and start onver for possitive bias
+
+Temp Loop:
+
+Start loop with start msg
+Timer will call intr after every 10 ms
+ 3 times IV 
+ 1 timme Temp
+ 
+ loop time 40ms
+ 
+ 
+decoder 

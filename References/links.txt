@@ -1,0 +1,7 @@
+Thermistor control of peltier voltage with Arduino (for DSLR chill box project)
+
+http://electronics.stackexchange.com/questions/118536/thermistor-control-of-peltier-voltage-with-arduino-for-dslr-chill-box-project
+.....................................................................................................................................
+
+
+

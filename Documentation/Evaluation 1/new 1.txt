@@ -1,0 +1,21 @@
+DRV595
+
+1. It is like  a H-bridge, which takes in input as PWM and gives out PWM voltage output and ripple current output.
+2. This is basically a high-current power driver.
+
+
+i. It has two modes of working:
+	a. BD Modulation: Lower ripples and lower efficiency. Gives PWM output voltage on both pins with varing duty cycles, decided by the initial gain parameter.
+	b. ISPW Modulation: High ripples and higher efficiency. Gives PWM output volatge on one of the pin and makes the other pin to be zero voltage.
+	
+Circuit Implementation done:	
+1. Test board designed and printed.
+2. Components soldered on the board.
+
+Problems faced:
+1. Unavailability of suitable inductors for reducing the ripples produced.
+2. First PCB printed was smaller(scaled) due to software problems(incompatibility between softwares). This was later resolved by trial and error.
+
+################################################################################################
+########## SIMULATION MUST BE DONE FOR THE INDUCTOR CIRCUIT TO VALIDATE OUR PROOF ##############
+################################################################################################

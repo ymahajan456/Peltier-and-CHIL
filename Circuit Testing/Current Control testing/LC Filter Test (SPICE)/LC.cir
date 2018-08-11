@@ -1,0 +1,13 @@
+LC Filter Analysis for Peltier Cooler
+
+Vin 1 0 dc 0 ac 1
+L1 1 2 0.1m
+C1 2 0 100u
+R1 2 0 1
+
+.control
+ac dec 100 10 10Meg
+run
+plot vdb(2) xlog
+.endc
+.end

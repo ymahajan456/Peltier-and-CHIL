@@ -1,0 +1,34 @@
+Used Pins
+
+// Timer
+.........
+* Tmer1:PB4 -> T1CCP0 16/32 Bit timer
+        PB5 -> T1CCP1 16/32 Bit timer
+        
+// USB
+.......
+* USB0: PD4 -> D-
+        PD5 -> D+
+
+// LED
+.......
+* PWM1 :PF1 -> Red
+        PF2 -> Blue
+        PF3 -> Green
+
+// UART
+.........
+* UART0:PA0 -> RX
+        PA1 -> TX 
+
+// I2C
+.........
+* I2C0 :PB2 -> SCL
+       :PB3 -> SDA
+
+// SPI
+.........
+* SSI0 :PA2 -> CLk
+        PA3 -> FSS   
+        PA4 -> RX
+        PA5 -> TX

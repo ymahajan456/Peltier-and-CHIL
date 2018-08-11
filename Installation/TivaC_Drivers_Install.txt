@@ -1,0 +1,26 @@
+## Installing USB Device Drivers for Tiva C  ##
+
+CCS7 http://processors.wiki.ti.com/index.php/Download_CCS
+TivaC TivaWare for C Series Software from http://www.ti.com/tool/sw-tm4c
+
+
+setup CCS for Tiva Projects
+http://wel.ee.iitb.ac.in/teaching_labs/ee712/CCS_Installation/CCS_TivaWare.pdf
+
+
+
+1. Connect from device USB port on LaunchPad board
+2. Open Device Manager and update drivers from SW-USB-windrivers-6459.zip
+
+Driver Details:
+Name: StellarisWare® embedded USB drivers
+Link: http://www.ti.com/tool/SW-USB-WINDRIVERS
+Note: This is not incircuit debugger driver which helps to programm and debug device from debug unit
+
+## Installing Libusb-win32 for Launchpad board ##
+
+1. Download Zadiag from http://zadig.akeo.ie/downloads/zadig_2.2.exe
+2. Goto options and select device vendor ID (0x1CBE in this case) and install libUSB-win32 latest version
+3. Install LibUSB filter package from https://excellmedia.dl.sourceforge.net/project/libusb-win32/libusb-win32-releases/1.2.6.0/libusb-win32-devel-filter-1.2.6.0.exe
+4. Check if USB is working or not using test programs installed by filter
+

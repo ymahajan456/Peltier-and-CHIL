@@ -1,0 +1,46 @@
+Software Section
+
+Targated
+.........
+Complete Tempreture Control Loop
+1. Get actual tempreture reading from lm35 (Tempreture Sensor)
+2. Measure current flowing through cooler and calculate error from setpoint
+3. Update PWM duity cycle to adjust current value accordingly
+
+Problems Accured
+.................
+1. Getting started with completely new family of devices
+2. Deciding required communicaton peripherals for different sensors and host
+3. Seting up device for USB bulk transfer
+4. Unble to form complete loop due to unavailability of all the hardware components
+
+Tasks Done
+...........
+
+-> Device Application2C
+    Duplex communication with host
+    1. USB  : Main data transfer protocol to exchange data and commands
+    2. UART : Mostly as a debugg protocal
+    
+    Duplex communication with peripferal devices
+    1. I2C  : Peripherals such as INA 
+    2. SPI  : Peripherals such as PGA   
+    
+-> Host Application
+Sample GUI application to send and receive data and instructions
+    Seperate threads for 
+    1. Data transmission 
+    2. Data Receiving 
+    3. GUI and Computaion
+
+    USB Communication with device
+        a. Detection of correct USB devices   // faltu
+        b. Getting device interfaces from OS and configure device for bulk transfer
+        c. Start data transmission and receiving threads
+        d. Error handling and garbage collection
+        
+    
+
+
+    
+    
